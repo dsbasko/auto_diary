@@ -1,0 +1,11 @@
+{
+   "trailingComma": "es5",
+   "singleQuote": true,
+   "semi": true,
+   "printWidth": 120,
+   "tabWidth": 3,
+   "importOrder": ["^react$", "<THIRD_PARTY_MODULES>", "^@ui$", "^@(.*)$", "^.(.)/(.*)", "(.props)$", "(.(s)css)$"],
+   "importOrderSeparation": false,
+   "importOrderSortSpecifiers": true,
+   "tailwindConfig": "./tailwind.config.js"
+}
