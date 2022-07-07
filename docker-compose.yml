@@ -1,0 +1,14 @@
+version: '3'
+services:
+  frontend:
+    container_name: frontend
+    restart: always
+    networks:
+      - auto_diary_network
+    volumes:
+      - ./apps/frontend/:/app/
+      - /app/node_modules/
+
+networks:
+  auto_diary_network:
+    driver: bridge
